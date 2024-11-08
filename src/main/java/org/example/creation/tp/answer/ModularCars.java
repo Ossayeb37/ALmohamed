@@ -55,7 +55,7 @@ public class ModularCars {
         private String color;
         private int siegeNumber;
         private List<String> extras;
-    pas 
+
         public ModularCarsBuilder(String modele, String motorType, String color, int siegeNumber) {
             if (modele == null || motorType == null || siegeNumber <= 0) {
                 throw new IllegalArgumentException("Le modèle, le type de moteur et le nombre de sièges sont obligatoires.");
